@@ -4,3 +4,9 @@ services:
     ports:
       - "8050:8050"
     container_name: lecture2
+
+    volumes:
+      - dice_simulator:/app/src/
+  
+volumes:
+  dice_simulator:
