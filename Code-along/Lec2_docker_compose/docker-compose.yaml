@@ -1,0 +1,6 @@
+services:
+  python: 
+    build: .
+    ports:
+      - "8050:8050"
+    container_name: lecture2
