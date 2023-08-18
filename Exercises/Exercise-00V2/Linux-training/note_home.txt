@@ -1,0 +1,2 @@
+hello from note_home
+current_directory is: /Users/philipdecanesie/OneDrive/School-ITHS/Projects/Data-engineering-Philip-de-Canesie/Exercises/Exercise-00V2/Linux-training
