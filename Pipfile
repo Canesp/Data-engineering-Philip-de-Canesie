@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 pyjokes = "*"
 black = "*"
+isort = "*"
 
 [dev-packages]
 ipykernel = "*"
