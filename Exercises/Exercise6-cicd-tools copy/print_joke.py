@@ -1,3 +1,6 @@
+import pyjokes 
+import random as rnd
+
 reactions = [
     "Hilarious!",
     "Oh, the humanity!",
@@ -13,11 +16,13 @@ reactions = [
 
 
 def get_random_reaction():
-    pass  # Fill this one in
-
+    # returns a random reaction from the reaction list 
+    return (reactions[rnd.randint(0, len(reactions) - 1)])
 
 def print_random_joke_and_reaction():
-    pass  # Fill this one in
+    # prints a random joke with reaction.
+    print(f"{pyjokes.get_joke()} \n{get_random_reaction()}")
+    
 
 
 if __name__ == "__main__":
