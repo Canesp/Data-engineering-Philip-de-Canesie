@@ -1,4 +1,4 @@
-import pyjokes 
+import pyjokes
 import random as rnd
 
 reactions = [
@@ -16,13 +16,13 @@ reactions = [
 
 
 def get_random_reaction():
-    # returns a random reaction from the reaction list 
-    return (reactions[rnd.randint(0, len(reactions) - 1)])
+    # returns a random reaction from the reaction list
+    return reactions[rnd.randint(0, len(reactions) - 1)]
+
 
 def print_random_joke_and_reaction():
     # prints a random joke with reaction.
     print(f"{pyjokes.get_joke()} \n{get_random_reaction()}")
-    
 
 
 if __name__ == "__main__":
